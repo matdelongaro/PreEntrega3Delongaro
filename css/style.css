@@ -119,19 +119,12 @@ a{
         grid-row: 3/4;
     }
     
-   
-
     #about{
         padding: 50px;
     }
     .titulo-principal{
         margin-top: 20px;
     }
-    #contacto-responsive{
-        margin-top: 10px;
-        margin-bottom: 0; 
-    }
-
 
     #pie{
         padding:0px;
