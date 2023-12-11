@@ -1,8 +1,14 @@
-/* *{
+@import '../scss/base/colors';
+@import '../scss/components/header';
+@import '../scss/components/sections';
+@import '../scss/components/footer';
+
+
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+} 
 body{
     font-family: 'Roboto', sans-serif;
 }
