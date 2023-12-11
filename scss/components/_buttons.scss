@@ -1,0 +1,25 @@
+@mixin size-btn($h, $w){
+    height: $h;
+    width: $w;
+}
+
+.btn{
+    
+    border-radius: 3px;
+    @include size-btn(40px, 150px);
+    &--seeMore{
+        background-color:$dark-light;
+        color:$light;
+    }
+    &:hover{
+        color:rgb(184, 184, 184) ;
+        transition: 0.5s;
+        border: 1px solid $dark-light;
+        color: $dark-light;
+    }
+
+    &--form{
+        background-color:$gray-light;
+        color:$light;
+    }
+}
