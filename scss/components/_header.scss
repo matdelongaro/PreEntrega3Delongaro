@@ -1,38 +1,37 @@
+
+// NAVEGACION CONTACT- FAQS - TRIPS
 .navbar-brand{
     width: 90px;
 }
-// @keyframes change-color {
-//     from { background: red; }  /* Primer fotograma */
-//     to { background: green; }  /* Segundo y último fotograma */
-//   }
-
+// HEADER INDEX
 header{
     height: 100vh;
-    
+    .portada{
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        overflow: hidden;
+        max-width: 100%;
+        .titulo{
+            position: absolute;
+            top: 40%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .img-portada{
+            width: 100vw;
+            height: 80vh;
+            object-fit: cover;
+        }
+    }
+}
+div{   
+    .titulo-principal{
+        font-size: 50px;
+        margin-top: 100px;
+        font-weight: bold;
+    }
+}
 
-}
-.portada{
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    overflow: hidden;
-    max-width: 100%;
-}
-.titulo{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.img-portada{
-    width: 100vw;
-    height: 80vh;
-    object-fit: cover;
-}
 
 
-.titulo-principal{
-    font-size: 50px;
-    margin-top: 100px;
-    font-weight: bold;
-}

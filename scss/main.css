@@ -5,30 +5,27 @@
 header {
   height: 100vh;
 }
-
-.portada {
+header .portada {
   position: relative;
   display: inline-block;
   text-align: center;
   overflow: hidden;
   max-width: 100%;
 }
-
-.titulo {
+header .portada .titulo {
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-.img-portada {
+header .portada .img-portada {
   width: 100vw;
   height: 80vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.titulo-principal {
+div .titulo-principal {
   font-size: 50px;
   margin-top: 100px;
   font-weight: bold;
@@ -55,6 +52,19 @@ header {
   margin: 10px auto;
 }
 
+div ul .item-faqs {
+  font-size: 24px;
+  transform: translate(-100%, 0px);
+  opacity: 0;
+  animation: item-slide 1s forwards;
+}
+
+@keyframes item-slide {
+  100% {
+    opacity: 1;
+    transform: translate(0px, 0px);
+  }
+}
 #tripsInfo {
   height: 120px;
 }
@@ -95,14 +105,11 @@ header {
        object-fit: cover;
     margin: 10px auto;
   }
-  .grid-containerTrips {
-    grid-template-columns: 1fr;
-  }
-  #about {
+  section #about {
     padding: 50px;
   }
-  .titulo-principal {
-    margin-top: 20px;
+  section .grid-containerTrips {
+    grid-template-columns: 1fr;
   }
 }
 @media (max-width: 992px) {

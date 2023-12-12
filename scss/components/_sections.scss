@@ -18,7 +18,27 @@
         }
     }
 }
+div{
+    ul{
+        .item-faqs{
+            font-size: 24px;
+            transform: translate(-100%,0px);
+            opacity: 0;
+            animation: item-slide 1s forwards;
+        }
+    }
+}
 
+@keyframes item-slide{
+    0%{
+
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0px,0px );
+
+    }
+}
 
 
 #tripsInfo{
@@ -66,14 +86,15 @@
             }
         }
     }
-    .grid-containerTrips{
-        grid-template-columns: 1fr;
+    
+    section{
+        #about{
+            padding: 50px;
+        }
+        .grid-containerTrips{
+            grid-template-columns: 1fr;
+        }
     }
-    #about{
-        padding: 50px;
-    }
-    .titulo-principal{
-        margin-top: 20px;
-    }
+
     
 }
