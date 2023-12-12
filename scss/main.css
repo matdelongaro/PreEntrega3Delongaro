@@ -42,7 +42,7 @@ header {
 .grid-container .grid-item {
   justify-content: center;
   text-align: center;
-  margin: 0 20px;
+  margin: 20px 10px;
   background-color: white;
   padding: 20px;
   border-radius: 10px;
@@ -83,11 +83,10 @@ header {
   }
   .grid-container {
     grid-template-columns: 1fr;
-    margin: 20px 0;
+    margin: 20px auto;
   }
   .grid-container .grid-item {
-    margin: 20px 0;
-    padding: 20px;
+    margin: 20px auto;
   }
   .grid-container .grid-item img {
     width: 250px;
@@ -104,6 +103,11 @@ header {
   }
   .titulo-principal {
     margin-top: 20px;
+  }
+}
+@media (max-width: 992px) {
+  #footer--col {
+    padding-top: 0;
   }
 }
 .btn {

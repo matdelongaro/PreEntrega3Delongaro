@@ -5,7 +5,7 @@
     .grid-item{
         justify-content: center;
         text-align: center;
-        margin: 0 20px;
+        margin: 20px 10px;
         background-color: white;
         padding: 20px;
         border-radius: 10px;
@@ -54,10 +54,9 @@
     }
     .grid-container{
         grid-template-columns: 1fr;
-        margin: 20px 0;
+        margin: 20px auto;
         .grid-item{
-            margin: 20px 0;
-            padding: 20px;
+            margin: 20px auto;
             & img{
                 width: 250px;
                 height: 250px;
