@@ -39,13 +39,23 @@ div{
 
     }
 }
+.item-faqs:not(:last-child){
+    margin-bottom: 20px;
+}
 
+@for $i from 1 to 5{
+    $delay: ($i - 1) * 0.25;
+    .item-faqs:nth-child(#{$i}){
+        animation-delay:#{$delay}s;
+    }
+}
+
+/* SECTION TRIPS */
 
 #tripsInfo{
     height: 120px;
 }
 
-/* SECTION TRIPS CSS */
 
 
 .grid-containerTrips{
@@ -86,7 +96,6 @@ div{
             }
         }
     }
-    
     section{
         #about{
             padding: 50px;
@@ -94,7 +103,9 @@ div{
         .grid-containerTrips{
             grid-template-columns: 1fr;
         }
+    
     }
+    
 
     
 }
