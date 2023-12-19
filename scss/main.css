@@ -3,7 +3,7 @@
 }
 
 header {
-  height: 100vh;
+  height: 93vh;
 }
 header .portada {
   position: relative;
@@ -20,7 +20,7 @@ header .portada .titulo {
 }
 header .portada .img-portada {
   width: 100vw;
-  height: 80vh;
+  height: 90vh;
   -o-object-fit: cover;
      object-fit: cover;
 }
