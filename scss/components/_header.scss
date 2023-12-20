@@ -5,22 +5,24 @@
 }
 // HEADER INDEX
 header{
-    height: 93vh;
+    height: 100vh;
     .portada{
+        height: 80%;
         position: relative;
-        display: inline-block;
         text-align: center;
         overflow: hidden;
-        max-width: 100%;
+    nav{
+        height: 20%;
+        }
         .titulo{
             position: absolute;
-            top: 40%;
+            top: 30%;
             left: 50%;
             transform: translate(-50%, -50%);
         }
         .img-portada{
-            width: 100vw;
-            height: 90vh;
+            width: 100%;
+            height: 80vh;
             object-fit: cover;
         }
     }

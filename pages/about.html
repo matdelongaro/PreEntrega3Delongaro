@@ -13,10 +13,10 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,700;1,400;1,500&family=Poppins:wght@200;400;600&family=Pragati+Narrow:wght@400;700&family=Roboto:wght@300&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="./scss/main.css">
+  <link rel="stylesheet" href="../scss/main.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-  <link rel="shortcut icon" href="./img/favicon_io/favicon.ico">
+  <link rel="shortcut icon" href="../img/favicon_io/favicon.ico">
   <!-- Meta description -->
   <meta name="description" content="Adventure Company in Mendoza Specialized in mountain expeditions, trekking, hiking, mountaineering biking, rock climbing trips.">
   <!-- Meta kw -->
@@ -25,222 +25,79 @@
 </head>
 
 <body>
-  <header class="bg-dark">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <div class="navbar-brand">
-          <a href="./index.html" class="text-bg-dark"><img src="./img/favicon_io/android-chrome-512x512.png" class="navbar-brand" alt="Alpinista Expeditions"></a>
-        </div>
-        
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active fw-bold" aria-current="page" href="#" id="nav-link">HOME</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active fw-bold" aria-current="page" href="./pages/trips.html" id="nav-link">TRIPS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active fw-bold" aria-current="page" href="./pages/about.html" id="nav-link">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active fw-bold" aria-current="page" href="./pages/faqs.html" id="nav-link">FAQS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active fw-bold" aria-current="page" href="./pages/contact.html" id="nav-link">CONTACT</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-   
-    <div class="portada">
-        <img src="./img/img19.jpg" alt="Personas haciendo Trekking" class="img-portada">
-        <div class="titulo"><div data-aos="zoom-in"><h1 class="fw-bold text-white text-uppercase">The mountains are calling and we will go</h1></div></div>
-    </div>
-
-  </header>
-
-  <!-- SECTION VALORES  -->
-  <section class="py-1 bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-3 col-sm-6 text-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-shield-check text-bg-dark mt-4" viewBox="0 0 16 16">
-            <path d="M5.338 1.59a61.44 61.44 0 0 0-2.837.856.481.481 0 0 0-.328.39c-.554 4.157.726 7.19 2.253 9.188a10.725 10.725 0 0 0 2.287 2.233c.346.244.652.42.893.533.12.057.218.095.293.118a.55.55 0 0 0 .101.025.615.615 0 0 0 .1-.025c.076-.023.174-.061.294-.118.24-.113.547-.29.893-.533a10.726 10.726 0 0 0 2.287-2.233c1.527-1.997 2.807-5.031 2.253-9.188a.48.48 0 0 0-.328-.39c-.651-.213-1.75-.56-2.837-.855C9.552 1.29 8.531 1.067 8 1.067c-.53 0-1.552.223-2.662.524zM5.072.56C6.157.265 7.31 0 8 0s1.843.265 2.928.56c1.11.3 2.229.655 2.887.87a1.54 1.54 0 0 1 1.044 1.262c.596 4.477-.787 7.795-2.465 9.99a11.775 11.775 0 0 1-2.517 2.453 7.159 7.159 0 0 1-1.048.625c-.28.132-.581.24-.829.24s-.548-.108-.829-.24a7.158 7.158 0 0 1-1.048-.625 11.777 11.777 0 0 1-2.517-2.453C1.928 10.487.545 7.169 1.141 2.692A1.54 1.54 0 0 1 2.185 1.43 62.456 62.456 0 0 1 5.072.56"/>
-            <path d="M10.854 5.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
-          </svg>
-          <p class="fw-lighter text-bg-dark mt-4">SECURITY</p>
-        </div>
-        <div class="col-lg-3 col-sm-6 text-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-star text-bg-dark mt-4" viewBox="0 0 16 16">
-            <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"/>
-          </svg>
-          <p class="fw-lighter text-bg-dark mt-4 ">QUALITY SERVICES</p>
-        </div>
-        <div class="col-lg-3 col-sm-6 text-center"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-people text-bg-dark mt-4" viewBox="0 0 16 16">
-          <path d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022ZM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4m3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0M6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816M4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275ZM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0m3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4"/>
-        </svg>
-        <p class="fw-lighter text-bg-dark mt-4">PERSONALISED EXPERIENCE</p>
-        </div>
-        <div class="col-lg-3 col-sm-6 text-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-tree text-bg-dark mt-4" viewBox="0 0 16 16">
-            <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z"/>
-          </svg>
-          <p class="fw-lighter text-bg-dark mt-4">SUSTAINABILITY</p>
-        </div>
+      <div class="navbar-brand">
+        <a href="../index.html" class="text-bg-dark"><img src="../img/favicon_io/android-chrome-512x512.png" class="navbar-brand" alt="A-Expeditions"></a>
       </div>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="../index.html" id="nav-link">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="./trips.html" id="nav-link">TRIPS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="./about.html" id="nav-link">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="./faqs.html" id="nav-link">FAQS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fw-bold" aria-current="page" href="./contact.html" id="nav-link">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container text-center my-3">
+    <h1 class="titulo-principal">ABOUT US</h1>
+    <span class="material-symbols-outlined text-info">
+      maximize
+      </span>
+  </div>
+  <div class="container">
+    <div class="about-container">
+      <p class="about-p">Alpinista Expediciones is a company dedicated to providing unforgettable mountain experiences to hiking and adventure enthusiasts. Our team is made up of passionate mountain guides with extensive experience and knowledge in various mountain regions. We specialize in offering guiding services for hiking, trekking and climbing excursions, adapted to all levels of skill and experience.</p>
+      <img src="../img/guias-about.jpg" alt="guias en la cumbre del Volcan Maipo">
+      <h3 class="fw-bold my-3">Main Services:</h3>
+
+        <h5 class="fw-semibold">1. Professional Guides</h5><p>Our mountain guides are certified experts with deep knowledge of routes, safety techniques and orientation skills. Their passion for the mountains guarantees an enriching and safe experience for our clients.</p> 
+        
+        <h5 class="fw-semibold">2. Variety of Routes and Destinations:</h5><p>We offer a wide range of adventure options, from gentle hikes for beginners to challenging ascents for experienced mountaineers. Our destinations span majestic mountain ranges, national parks and iconic locations around the world.</p>
+        
+        <h5 class="fw-semibold">3. Custom Programs: </h5><p>We adapt our expeditions to meet the individual needs and preferences of our clients. Whether you are looking for a family experience, a romantic getaway, or an extreme challenge, we can customize a program to fit your expectations.</p>
+        
+        <h5 class="fw-semibold">4. Focus on Safety:</h5><p>Safety is our top priority. All our guides are trained in first aid and mountain rescue techniques. Additionally, we provide high-quality equipment and follow strict safety protocols to ensure peace of mind for our customers.</p>
+        
+        <h5 class="fw-semibold">5. Environmental Commitment:</h5><p>We strive to practice sustainable tourism and minimize our environmental impact. We encourage respect for nature and work closely with local communities to preserve and protect mountain ecosystems.</p>
+        
+        <h5 class="fw-semibold">6. Comprehensive Experience:</h5><p>Beyond the adventure itself, we offer a comprehensive experience that includes cultural, historical and natural aspects of each destination. We believe that a true connection with the mountains goes beyond the simple act of going up and down.</p>
+        
+        <p class="p-2"><span class="fw-semibold">Alpinista Expediciones</span> is committed to providing transformative experiences in nature, connecting people with the mountain environment in a responsible and passionate way. Join us to discover the world from new heights!</p>
+    </div>
+  </div>
+  <div class="container my-5">
+    <h4 class="text-center">Certified by:</h4>
+    <div class="row my-3">
+      <div class="col text-center"><a href="https://escueladeguias.net.ar/" target="_blank"><img src="../img/epgamp.png" alt="epgamp" id="rrss"></a></div>
+      <div class="col text-center"><a href="https://amga.com/" target="_blank"><img src="../img/amga-logo.png" alt="amga" id="rrss"></a></div>
+      <div class="col text-center"><a href="https://ifmga.info/" target="_blank"><img src="../img/ifmga.webp" alt="ifmga" id="rrss"></a></div>
+    </div>
+  </div>
+  <section class="bg-body-secondary my-3">
+    <div class="container p-5">
+      <p><span class="fw-bold">Our mission</span> is to inspire and guide mountain lovers through unforgettable experiences, fostering respect for nature and promoting safety in the practice of mountaineering. We strive to provide exceptional services, combining expert knowledge, environmental ethics and passion for adventure.
     </div>
   </section>
   
-    <!-- SECTION TRIPS -->
-  <div data-aos="fade-in">
-  <section class="bg-body-secondary">
-    <div class="container py-3">
-      <div class="container text-center">
-        <h2 class="my-3">POPULAR TRIPS</h2>
-        <span class="material-symbols-outlined text-info">
-          maximize
-        </span>
-      </div>
-      <div class="grid-container"> 
-        <div class="grid-item border-dark-subtle">
-          <img src="./img/img2.png" alt="cordon del plata">
-          <h3>CORDÓN DEL PLATA</h3>
-          <p class="overflow-y-scroll " id="tripsInfo">
-            This mountain range is ideal as a prior experience for those who in the future intend to attempt Aconcagua or other high altitude mountains.</p>
-          <a href="#" class="btn btn--seeMore" id="link">SEE MORE</a>
-        </div>
-        <div class="grid-item border-dark-subtle">
-          <img src="./img/img5.png" alt="plaza de mulas">
-          <h3>ACONCAGUA PARK</h3>
-          <p class="overflow-y-scroll"  id="tripsInfo">This area is internationally known for the highest mountain in the Western Hemisphere, Aconcagua, at 6962 m. It protects the sector of the Andes mountain range where it reaches the highest altitude in America, with numerous peaks that exceed 5,000 m.</p>
-          <a href="#" class="btn btn--seeMore" id="link">SEE MORE</a>
-        </div>
-        <div class="grid-item border-dark-subtle">
-          <img src="./img/tupungato.jpg" alt="tupungato">
-          <h3>TUPUNGATO PARK</h3>
-          <p class="overflow-y-scroll"  id="tripsInfo">The Tupungato Provincial Park was declared a reserve in 1983. It includes about 15,0000 hectares, protecting an important sector of the Central Andes, but the main objective is the preservation of the Tupungato Volcano, the highest in the Andean massif with its 6,820 meters and its eternal snow and the extensive glaciers that surround it, which feed important Mendoza rivers.</p>
-          <a href="#" class="btn btn--seeMore" id="link">SEE MORE</a>
-        </div>
-      </div>
-      
-    </div>
-    
-    
-  </section>
-</div>
-<section class="container my-5">
-  <div class="container text-center">
-    <h2>ABOUT</h2>
-    <span class="material-symbols-outlined text-info">
-      maximize
-    </span>
-  </div>
-  <div class="row">
-    <div class="col-lg-4 col-sm-12 m-auto" id="about">
-      <div data-aos="zoom-in"> <img src="./img/guia1.png" alt="Guía Fabio Pereyra" class="mx-auto my-2 d-block w-50 rounded-circle">
-        <h4 class="text-center">Fabio Pereyra</h4>
-        <p class="text-center">Mountain Guide | EPGAMT & Logistic</p>
-        <!-- Button trigger modal -->
-        <button type="button" class="mx-auto d-block btn btn--seeMore" data-bs-toggle="modal"
-          data-bs-target="#staticBackdrop">
-          SEE MORE
-        </button></div>
-     
-
-      <!-- Modal -->
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title fs-5" id="staticBackdropLabel">Fabio Pereyra</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-             <img src="./img/guia1.png" alt="Guia Fabio Pereyra" class="mx-auto my-2 d-block w-50" >
-             Professional Mountain Guide with WFR certification. Mountaineer and sports climber. In his experience as a guide and mountaineer, he has climbed numerous mountains of the Andes included Mount Aconcagua. He has worked as a trekking guide mostly in Aconcagua Park and Cordón del Plata Park. He has worked as a sport climbing instructor and mountaineering coordinator in Puerto Madryn, Chubut, where he organized expeditions to Lanin Volcano, among others. Nature lover and explorer which led him to crown some virgin summits of more than 4000 meters. Committed to the safety development of the activity and the ecological impact.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-12 m-auto" id="about">
-      <div data-aos="zoom-in">
-        <img src="./img/guia2.png" alt="Guía Pablo Moreno" class="mx-auto my-2  d-block w-50 rounded-circle">
-      <h4 class="text-center">Pablo Moreno</h4>
-      <p class="text-center">Mountain Guide | AAGM-UIMLA</p>
-      <!-- Button trigger modal -->
-      <button type="button" class="mx-auto d-block btn btn--seeMore" data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop">
-        SEE MORE
-      </button>
-      </div>
-      
-
-      <!-- Modal -->
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title fs-5" id="staticBackdropLabel">Pablo Moreno</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              Dedicated to climbing and exploring and the Andes mountains for more than 20 years, Guillermo has been at the summit of Mt Aconcagua 15 times, one ascended by the Polish Glacier Route; Besides the Nevado de Huascaran, Alpamayo and Tocllarraju in Peru; Huayna Potosi, Illampu, Small Alpámayo in Bolivia; Volcan Lanin, Incahuasy, Important technical climbs such as the Poincenot Needle and Guilloumet Needle in El Chalten - Patagonia,Ice Cap traverse - 10 laps to the southern Patagonian ice, To mention only some of its ascensions besides several crossings in ski as much in the Patagonian as in Central Andes.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col-lg-4 col-sm-12 m-auto" id="about" >
-      <div data-aos="zoom-in"> <img src="./img/guia3.png" alt="Guía Luis Ocampo" class="mx-auto my-2  d-block w-50 rounded-circle">
-        <h4 class="text-center">Luis Ocampo</h4>
-        <p class="text-center">Logistic & Organization</p>
-        <!-- Button trigger modal -->
-        <button type="button" class="mx-auto d-block btn btn--seeMore" data-bs-toggle="modal"
-          data-bs-target="#staticBackdrop">
-          SEE MORE
-        </button></div>
-      <!-- Modal -->
-      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-        aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title fs-5" id="staticBackdropLabel">Luis Ocampo</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-              Professional Mountain Guide with WFR certification. Mountaineer and sports climber. In his experience as a guide and mountaineer, he has climbed numerous mountains of the Andes included Mount Aconcagua. He has worked as a trekking guide mostly in Aconcagua Park and Cordón del Plata Park. He has worked as a sport climbing instructor and mountaineering coordinator in Puerto Madryn, Chubut, where he organized expeditions to Lanin Volcano, among others. Nature lover and explorer which led him to crown some virgin summits of more than 4000 meters. Committed to the safety development of the activity and the ecological impact.
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-  <section class="bg-body-secondary ">
-    <div class="container p-5">
-      <p><span class="fw-semibold">The guide is a professional mountaineer </span>who, in addition to handling the necessary techniques and materials, adds a direct relationship and invaluable knowledge of the environment and its current state, details that can be vital in an outing. In addition, the guide will assess the capabilities and expectations of the group members, advising us on the activity and prudently advising us to resign if serious deficiencies are observed.</p>
-    </div>
-  </section>
+  
   <footer>
     <div class="container text-body-secondary">
       <div class="row">

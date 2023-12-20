@@ -55,7 +55,21 @@ div{
 #tripsInfo{
     height: 120px;
 }
-
+.about-container{
+    display: grid;
+    grid-template-columns: auto;
+}
+.about-container{
+    img{
+        width: 400px;
+        border-radius: 50%;
+        margin:50px auto;
+    }
+    .about-p{
+        margin: auto 50px;
+        text-align: center;
+    }
+}
 
 
 .grid-containerTrips{
