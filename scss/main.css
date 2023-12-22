@@ -46,6 +46,10 @@ div .titulo-principal {
   padding: 20px;
   border-radius: 10px;
 }
+.grid-container .grid-item:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
+}
 .grid-container .grid-item img {
   width: 250px;
   height: 250px;
@@ -59,6 +63,15 @@ div ul .item-faqs {
   transform: translate(-100%, 0px);
   opacity: 0;
   animation: item-slide 0.5s forwards;
+}
+
+#container__aconcagua {
+  margin: 10px auto;
+}
+
+#aconcagua {
+  width: 300px;
+  margin: 0 auto;
 }
 
 @keyframes item-slide {
@@ -140,7 +153,7 @@ div ul .item-faqs {
      object-fit: cover;
 }
 .grid-containerTrips img:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
   transition: 0.5s;
 }
 

@@ -9,6 +9,10 @@
         background-color: white;
         padding: 20px;
         border-radius: 10px;
+        &:hover{
+            transform: scale(1.01);
+            transition: 0.5s;
+        }
         & img{
             width: 250px;
             height: 250px;
@@ -27,6 +31,16 @@ div{
             animation: item-slide 0.5s forwards;
         }
     }
+}
+
+#container__aconcagua{
+    margin: 10px auto;
+}
+
+#aconcagua{
+    width: 300px;
+    margin: 0 auto;
+
 }
 
 @keyframes item-slide{
@@ -100,13 +114,15 @@ div{
         height: auto;
         object-fit: cover;
         &:hover{
-            transform: scale(1.1);
+            transform: scale(1.02);
             transition: 0.5s;
         }
         
     }
     
 }
+
+
 .whatsapp {
     position:fixed;
     width:60px;
