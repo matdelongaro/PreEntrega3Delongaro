@@ -169,7 +169,17 @@ div{
         }
     
     }
-    
+    .about-container{
+        img{
+            width: 350px;
+            border-radius: 50%;
+            margin:50px auto;
+        }
+        .about-p{
+            margin: auto 30px;
+            text-align: center;
+        }
+    }
 
     
 }

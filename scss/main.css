@@ -199,6 +199,15 @@ div ul .item-faqs {
   section .grid-containerTrips {
     grid-template-columns: 1fr;
   }
+  .about-container img {
+    width: 350px;
+    border-radius: 50%;
+    margin: 50px auto;
+  }
+  .about-container .about-p {
+    margin: auto 30px;
+    text-align: center;
+  }
 }
 #rrss {
   width: 80px;
