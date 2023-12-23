@@ -1,12 +1,12 @@
 .grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    margin: 15px auto;
+    margin: 25px auto;
+    background-color: white;
     .grid-item{
         justify-content: center;
         text-align: center;
         margin: 20px 10px;
-        background-color: white;
         padding: 20px;
         border-radius: 10px;
         &:hover{
