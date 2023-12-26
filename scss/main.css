@@ -267,11 +267,14 @@ div ul .item-faqs {
   #tupungato__park {
     flex-direction: column;
   }
-  #tupungato__park div {
-    padding-bottom: 0;
-  }
   #tupungato__park h3 {
     font-size: 30px;
+  }
+  .imgContainer__tup {
+    grid-template-columns: 1fr;
+  }
+  .imgContainer__tup .imgGrid__tup1 {
+    grid-column: 1;
   }
 }
 #rrss {
