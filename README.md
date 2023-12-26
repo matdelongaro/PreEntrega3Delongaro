@@ -19,7 +19,7 @@
 <li>Equipamiento</li>
 </ul>
 
-**Entre otras.**
+**Entre otras informaciones.**
 
 <p>
 Ésta página puede ser modificada con el paso del tiempo.
