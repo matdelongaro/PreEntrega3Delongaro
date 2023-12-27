@@ -119,7 +119,7 @@ div{
     }
 }
 #prex{
-    width: 600px;
+    width: 100%;
 }
 #tupungato__park{
     display: flex;
@@ -168,6 +168,7 @@ div{
     }
     
 }
+
 .carousel{
     filter: opacity(0.9);
     &:hover{
@@ -190,7 +191,16 @@ div{
     text-align:center;
     font-size:30px;
     z-index:100;
+    rotate: 30deg;
+    &:hover{
+        animation: move 500ms ease-in-out;
+    }
   }
+  @keyframes move{
+    25% {rotate: 25deg;}
+    75% {rotate: -25deg;}
+  }
+
   
   .whatsapp-icon {
     margin-top:13px;
