@@ -46,6 +46,7 @@ div .titulo-principal {
   -o-object-fit: cover;
      object-fit: cover;
   filter: grayscale(50%);
+  opacity: 0.9;
 }
 .cabecera .cabecera__titulo {
   position: absolute;
