@@ -13,14 +13,16 @@
     }
     &:hover{
         color:rgb(184, 184, 184) ;
-        transition: 0.5s;
+        transition: 0.1s;
         border: 1px solid $dark-light;
         color: $dark-light;
+        font-weight: bold;
     }
 
     &--form{
         background-color:$gray-light;
         color:$light;
+        font-weight: bold;
     }
 }
 

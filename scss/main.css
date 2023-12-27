@@ -16,7 +16,7 @@ header .portada nav {
 }
 header .portada .titulo {
   position: absolute;
-  top: 30%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -292,6 +292,9 @@ div ul .item-faqs {
 #rrss {
   width: 80px;
 }
+#rrss:hover {
+  padding: 1px;
+}
 
 @media (max-width: 992px) {
   #footer--col {
@@ -309,13 +312,15 @@ div ul .item-faqs {
 }
 .btn:hover {
   color: rgb(184, 184, 184);
-  transition: 0.5s;
+  transition: 0.1s;
   border: 1px solid rgba(0, 0, 0, 0.678);
   color: rgba(0, 0, 0, 0.678);
+  font-weight: bold;
 }
 .btn--form {
   background-color: rgba(58, 50, 50, 0.685);
   color: rgb(250, 239, 239);
+  font-weight: bold;
 }
 
 .nav-item:hover {
