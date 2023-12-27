@@ -25,6 +25,7 @@ header .portada .img-portada {
   height: 80vh;
   -o-object-fit: cover;
      object-fit: cover;
+  opacity: 0.8;
 }
 
 div .titulo-principal {
